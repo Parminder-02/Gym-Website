@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" IE="edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> form </title>
+    <link rel="stylesheet" href="FORM.CSS">
+</head>
+
+<body>
+    <div class="main">
+        <div class="register">
+            <h1><b>SIGN UP</b></h1>
+            <form action="backend.php">
+                <div>
+                    FIRST NAME:<br> <input type="text" name="" id="name" placeholder="Enter your First Name">
+                </div>
+                <br>
+                <div>
+                    LAST NAME:<br> <input type="text" name="" id="name" placeholder="Enter your Last Name">
+                </div>
+                <br>
+                <div>
+                    E-MAIL:<br> <input type="e-mail" name="" id="name" placeholder="Enter your e-mail id">
+                </div>
+                <br>
+                <div>
+                    PASSWORD:<br> <input type="password" name="" id="name" placeholder="Enter your password">
+                </div>
+                <br>
+                <div>
+                    RE-ENTER PASSWORD:<br> <input type="password" name="" id="name" placeholder="Enter your password">
+                </div>
+                <br>
+                <div>
+                    PHONE NUMBER:<br> <input type="tel"  name="" id="name" placeholder="Enter your phone number">
+                </div>
+                <br>
+                <div> GENDER: <br>
+                    <select id="name" name="gender">
+                        <option selected="" value="">Choose One (Optional)</option>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        
+
+                    </select>
+                    
+                    <div class="g-recaptcha" data-sitekey="6Lf20LEZAAAAAC-brQs1xdARGZGupb58xDgtycZd">
+                        <div style="width: 304px; height: 78px;">
+                            <div><br><iframe title="reCAPTCHA"
+                                    src="https://www.google.com/recaptcha/api2/anchor?ar=1&amp;k=6Lf20LEZAAAAAC-brQs1xdARGZGupb58xDgtycZd&amp;co=aHR0cHM6Ly9nb2xkc2d5bS5pbjo0NDM.&amp;hl=en&amp;v=O4xzMiFqEvA4YhWjk5t8Xuas&amp;size=normal&amp;cb=o1bobgx6bc4j"
+                                    width="304" height="78" role="presentation" name="a-6x56nhkqyrqs" frameborder="0"
+                                    scrolling="no"
+                                    sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox"></iframe>
+                            </div><textarea id="g-recaptcha-response" name="g-recaptcha-response"
+                                class="g-recaptcha-response"
+                                style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea>
+                        </div><iframe style="display: none;"></iframe><br>
+
+
+                        <button type="submit" id="submit" class="btn btn-success px-10"><b> SUBMIT </b></button>
+                    </div>
+                </div>
+        </div>
+        </form>
+
+</body>
